@@ -1,0 +1,35 @@
+.navigation {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ul {
+    list-style: none;
+  }
+
+  ul a {
+    color: $color-white;
+    padding: 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-brand;
+    }
+  }
+
+  ul p {
+    margin: 0px;
+    color: $color-brand;
+  }
+
+  .navigation-pages,
+  .navigation-links {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .active-link {
+    color: $color-brand;
+  }
+}
