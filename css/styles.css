@@ -36,6 +36,10 @@ p {
           flex: 1 0 auto;
 }
 
+img {
+  width: 100%;
+}
+
 .navigation {
   padding: 40px;
   display: -webkit-box;
@@ -118,5 +122,11 @@ p {
 footer {
   text-align: center;
   padding: 50px;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
