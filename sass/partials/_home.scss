@@ -1,0 +1,28 @@
+.home {
+  position: relative;
+}
+
+.home-container {
+  margin: 0px 40px;
+  position: absolute;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  .home-text {
+    font-size: 1.5em;
+  }
+
+  h1 {
+    margin: 5px;
+  }
+
+  .home-skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    p {
+      margin-right: 15px;
+    }
+  }
+}
