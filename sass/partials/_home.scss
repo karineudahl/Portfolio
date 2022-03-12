@@ -1,13 +1,6 @@
-.home {
-  position: relative;
-}
-
 .home-container {
   margin: 0px 40px;
-  position: absolute;
-  top: 45%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  @extend .vertically-center-content;
 
   .home-text {
     font-size: 1.5em;

@@ -40,6 +40,13 @@ img {
   width: 100%;
 }
 
+.vertically-center-content, .home-container, .projects-container {
+  position: relative;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .navigation {
   padding: 40px;
   display: -webkit-box;
@@ -87,16 +94,8 @@ img {
   color: #50ffd7;
 }
 
-.home {
-  position: relative;
-}
-
 .home-container {
   margin: 0px 40px;
-  position: absolute;
-  top: 45%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 .home-container .home-text {
