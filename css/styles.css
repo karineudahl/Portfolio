@@ -40,7 +40,7 @@ img {
   width: 100%;
 }
 
-.vertically-center-content, .home-container, .projects-container {
+.vertically-center-content, .home-container, .project-container, .project-container .project-overlay-links {
   position: relative;
   top: 30%;
   -webkit-transform: translateY(-50%);
@@ -123,9 +123,73 @@ footer {
   padding: 50px;
 }
 
-.projects-container {
+.project-container {
+  margin: auto;
+  max-width: 1500px;
+}
+
+.project-container .projects-content-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px 20px;
+}
+
+.project-container h1,
+.project-container p {
+  margin-left: 20px;
+}
+
+.project-container .project-content {
+  position: relative;
+}
+
+.project-container .project-overlay {
+  display: none;
+  position: absolute;
+  background-color: #091829;
+  opacity: 80%;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+.project-container .project-overlay-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-container .project-overlay-links a {
+  padding: 20px;
+  margin: 5px;
+  background-color: #50ffd7;
+  width: 80%;
+  border-radius: 3px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.project-container .project-overlay-links a:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.project-container .project-content:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  z-index: 1;
+}
+
+.project-container .project-content:hover .project-overlay {
+  display: block;
 }
 /*# sourceMappingURL=styles.css.map */
