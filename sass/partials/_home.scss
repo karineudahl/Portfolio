@@ -10,6 +10,22 @@
     margin: 5px;
   }
 
+  .home-cta {
+    margin: 80px 0px;
+  }
+
+  .home-cta a {
+    padding: 20px;
+    background-color: $color-btn;
+    color: $color-white;
+    text-decoration: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: darken($color: $color-btn, $amount: 10);
+    }
+  }
+
   .home-skills {
     display: flex;
     flex-wrap: wrap;
