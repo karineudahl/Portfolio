@@ -40,7 +40,7 @@ img {
   width: 100%;
 }
 
-.vertically-center-content, .home-container, .project-container, .project-container .project-overlay-links {
+.vertically-center-content, .project-container, .project-container .project-overlay-links {
   position: relative;
   top: 30%;
   -webkit-transform: translateY(-50%);
@@ -119,7 +119,7 @@ img {
 }
 
 .home-container .home-cta a:hover {
-  background-color: #c71452;
+  background-color: #a11c4a;
 }
 
 .home-container .home-skills {
@@ -249,5 +249,92 @@ footer {
   border-radius: 50%;
   margin: 10px 40px 30px 0px;
   max-width: 300px;
+  opacity: 0.6;
+}
+
+.about-container img:hover {
+  opacity: 1;
+}
+
+.about-container .about-content-img {
+  background-color: #091829;
+}
+
+.word-carousel {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.word-carousel .static-txt {
+  font-size: 25px;
+}
+
+.word-carousel ul {
+  margin-top: 24px;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+
+.word-carousel .dynamic-txts {
+  height: 37.5px;
+  line-height: 37.5px;
+  overflow: hidden;
+}
+
+.word-carousel li {
+  color: #cd235e;
+  list-style: none;
+  font-size: 25px;
+  position: relative;
+  top: 0;
+  -webkit-animation: slide 16s steps(8) infinite;
+          animation: slide 16s steps(8) infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -300px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -300px;
+  }
+}
+
+.word-carousel span {
+  position: relative;
+}
+
+.word-carousel span::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #091829;
+  border-left: 2px solid #cd235e;
+  -webkit-animation: typing 2s steps(14) infinite;
+          animation: typing 2s steps(14) infinite;
+}
+
+@-webkit-keyframes typing {
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
