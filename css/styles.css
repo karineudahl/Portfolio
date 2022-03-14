@@ -50,13 +50,6 @@ img {
   width: 100%;
 }
 
-.vertically-center-content, .project-container, .project-container .project-overlay-links {
-  position: relative;
-  top: 30%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
 .navigation {
   padding: 40px 0px;
   display: -webkit-box;
@@ -162,11 +155,20 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0px 20px;
 }
 
 .project-container h1 {
   margin-left: 20px;
+}
+
+.project-container .project-content {
+  max-width: 300px;
 }
 
 .project-container .project-overlay {
