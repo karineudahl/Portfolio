@@ -1,18 +1,19 @@
 .navigation {
-  padding: 40px;
+  padding: 40px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   ul {
     list-style: none;
+    padding-inline-start: 0px;
   }
 
   ul a {
     color: $color-white;
     padding: 20px;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
     &:hover {
       color: $color-brand;
@@ -22,7 +23,7 @@
   ul p {
     margin: 0px;
     color: $color-brand;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .navigation-pages,
