@@ -4,6 +4,10 @@
 
   h1 {
     margin: 5px;
+
+    @media (min-width: $tablet-min-width) {
+      font-size: 5em;
+    }
   }
 
   .home-cta {
