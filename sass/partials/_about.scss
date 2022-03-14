@@ -12,6 +12,11 @@
     margin: 40px 40px;
   }
 
+  h2 {
+    color: $color-brand;
+    margin-top: 50px;
+  }
+
   a {
     color: $color-white;
     text-decoration: none;
@@ -29,6 +34,16 @@
   i {
     margin-right: 10px;
     color: $color-brand;
+  }
+
+  .about-skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-line {
+    color: $color-btn;
+    padding: 0px 10px;
   }
 
   img {

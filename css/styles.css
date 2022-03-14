@@ -242,6 +242,11 @@ footer {
   margin: 40px 40px;
 }
 
+.about-container h2 {
+  color: #50ffd7;
+  margin-top: 50px;
+}
+
 .about-container a {
   color: #ffffff;
   text-decoration: none;
@@ -259,6 +264,19 @@ footer {
 .about-container i {
   margin-right: 10px;
   color: #50ffd7;
+}
+
+.about-container .about-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-container .about-line {
+  color: #cd235e;
+  padding: 0px 10px;
 }
 
 .about-container img {
