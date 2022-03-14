@@ -6,11 +6,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px 20px;
+    margin: 60px 20px;
   }
 
-  h1 {
+  h1,
+  p {
     margin-left: 20px;
+  }
+
+  p a {
+    color: $color-white;
   }
 
   .project-content {
