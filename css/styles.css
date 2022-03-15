@@ -168,12 +168,17 @@ footer {
   margin-left: 20px;
 }
 
+.project-container h2 {
+  text-align: center;
+}
+
 .project-container p a {
   color: #ffffff;
 }
 
 .project-container .project-content {
   max-width: 300px;
+  margin: 10px;
 }
 
 .project-container .project-overlay {

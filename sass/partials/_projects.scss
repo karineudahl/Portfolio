@@ -14,12 +14,17 @@
     margin-left: 20px;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   p a {
     color: $color-white;
   }
 
   .project-content {
     max-width: 300px;
+    margin: 10px;
   }
 
   .project-overlay {
