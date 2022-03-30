@@ -1,14 +1,6 @@
 .home-container {
   margin: 0px 20px;
 
-  h1 {
-    margin: 5px;
-
-    @media (min-width: $tablet-min-width) {
-      font-size: 5em;
-    }
-  }
-
   .home-cta {
     margin: 80px 0px;
   }
