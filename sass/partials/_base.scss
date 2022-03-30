@@ -19,6 +19,7 @@ h1 {
   margin: 5px;
   font-family: $font-heading;
   color: $color-brand;
+  font-size: 3em;
 
   @media (min-width: $tablet-min-width) {
     font-size: 5em;

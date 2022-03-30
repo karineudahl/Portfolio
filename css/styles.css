@@ -24,6 +24,7 @@ h1 {
   margin: 5px;
   font-family: "Open Sans", sans-serif;
   color: #50ffd7;
+  font-size: 3em;
 }
 
 @media (min-width: 650px) {
