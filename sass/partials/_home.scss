@@ -33,4 +33,28 @@
       margin-right: 15px;
     }
   }
+
+  .home-first-name {
+    display: flex;
+  }
+
+  .home-first-name p {
+    margin: 0px;
+  }
+
+  .home-first-name p:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+      color: $color-brand;
+    }
+    100% {
+      transform: rotate(360deg);
+      color: $color-brand;
+    }
+  }
 }

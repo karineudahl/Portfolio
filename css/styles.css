@@ -18,6 +18,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: none;
 }
 
 h1 {
@@ -48,6 +49,44 @@ p {
 
 img {
   width: 100%;
+}
+
+.cursor {
+  z-index: 999;
+  position: fixed;
+  background-color: #50ffd7;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  -webkit-box-shadow: 0 0 20px #50ffd7, 0 0 60px #50ffd7, 0 0 150px #50ffd7;
+          box-shadow: 0 0 20px #50ffd7, 0 0 60px #50ffd7, 0 0 150px #50ffd7;
+  -webkit-animation: colors 5s infinite;
+          animation: colors 5s infinite;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes colors {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes colors {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
 }
 
 .navigation {
@@ -139,6 +178,49 @@ img {
 
 .home-container .home-skills p {
   margin-right: 15px;
+}
+
+.home-container .home-first-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-container .home-first-name p {
+  margin: 0px;
+}
+
+.home-container .home-first-name p:hover {
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    color: #50ffd7;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    color: #50ffd7;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    color: #50ffd7;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    color: #50ffd7;
+  }
 }
 
 footer {
