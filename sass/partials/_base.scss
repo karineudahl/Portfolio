@@ -64,3 +64,9 @@ img {
     filter: hue-rotate(360deg);
   }
 }
+
+@media (min-width: $mobile-width) {
+  .cursor {
+    display: none;
+  }
+}

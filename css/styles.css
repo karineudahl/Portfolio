@@ -89,6 +89,12 @@ img {
   }
 }
 
+@media (min-width: 649px) {
+  .cursor {
+    display: none;
+  }
+}
+
 .navigation {
   padding: 40px 0px;
   display: -webkit-box;
