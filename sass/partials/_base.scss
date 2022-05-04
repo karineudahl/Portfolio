@@ -46,28 +46,3 @@ img {
   width: 100%;
 }
 
-@media (min-width: $tablet-min-width) {
-  .cursor {
-    z-index: 999;
-    position: fixed;
-    background-color: $color-brand;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    pointer-events: none;
-    box-shadow: 0 0 20px $color-brand, 0 0 60px $color-brand,
-      0 0 150px $color-brand;
-    animation: colors 5s infinite;
-    transform: translate(-50%, -50%);
-    cursor: none;
-  }
-
-  @keyframes colors {
-    0% {
-      filter: hue-rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(160deg);
-    }
-  }
-}
