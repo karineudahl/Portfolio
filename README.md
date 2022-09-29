@@ -6,6 +6,6 @@
 - Overwiew of my projects 
 
 # Built With 
-- HTML
-- CSS
-- JavaScript
+- 📄 HTML
+- 👁 CSS
+- 👩🏽‍💻 JavaScript
