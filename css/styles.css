@@ -334,7 +334,11 @@ footer {
 
 .about-container h2 {
   color: #50ffd7;
-  margin-top: 50px;
+}
+
+.about-container h3 {
+  color: #50ffd7;
+  margin-top: 60px;
 }
 
 .about-container a {
